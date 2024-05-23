@@ -1,0 +1,20 @@
+/* Typography */
+h2 {
+    font-family: "Rubik", sans-serif;
+    font-size: 40px;
+    color: #222222;
+}
+
+.accordion-button {
+    background-color: #8b8fad;
+    color: #FOF2FF;
+    font-family: "Rubik", sans-serif;
+    font-size: 24px;
+}
+
+.accordion-body {
+    background-color: #FOF2FF;
+    color: #222222;
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+}
