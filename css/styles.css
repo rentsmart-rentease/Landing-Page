@@ -1,5 +1,6 @@
 .image{
     width: 100%;
+    height: 100%;
     position: relative;
     overflow: hidden;
 }
@@ -11,7 +12,7 @@
     top: 50%;
     transform: translateY(-50%) rotate(-20deg);
     background: #F0F2FF;
-    width: 60%;
+    width: 426px;
     height: 140%;
 }
 body{
@@ -77,13 +78,76 @@ body{
     font-weight: 300;
 }
 
-.img-fluid{
-    width: 80%;
-    height: auto;
-}
-
 .bg-white{
     box-shadow: inset 0 0 0 1px black;
     background-color: #F6FBFF;
     border-radius: 8px;
 }
+
+/* Header */
+.fondo {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.cta{
+    font-weight: 700;
+    font-size: 50px;
+    text-align: start;
+    line-height: 1.35;
+}
+
+.mensaje{
+    font-weight: 300;
+    font-size: 25px;
+    text-align: start;
+    line-height: 1.35;
+}
+
+.btn{
+    background-color: #84DCC6;
+    width: 100%; 
+    max-width: 320px;
+    height: 40px;
+    font-family: "Rubik", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #191A20;
+}
+
+.btn:hover{
+    background-color: #A3E8D6;
+    color: #191A20;
+}
+.btn:active, .btn:focus{
+    background-color: #4EA38D !important;
+    color: #F6FBFF !important;
+}
+
+.btn2-header{
+    font-size: 15px;
+    background-color: #383D4A;
+    color: #F6FBFF;
+}
+.btn2-header:hover{
+    background-color: #747694;
+    color: #F6FBFF;
+}
+.btn2-header:active, .btn2-header:focus{
+    background-color: #222222 !important;
+}
+
+.im-btn{
+    transform: rotate(90deg);
+}
+
+.pic{
+    position: relative; 
+    background-image: url("https://i.ibb.co/bFVCBrT/fondo-header2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+
