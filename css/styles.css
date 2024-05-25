@@ -119,3 +119,25 @@ body{
     background-color: #4EA38D !important;
     color: #F6FBFF !important;
 }
+
+.colr-prm-ttl{
+    color: #F0F2FF !important;
+}
+
+.clr-prm-txt{
+    color: #000 !important;
+}
+
+.btn-prm{
+    background-color: #383D4A;
+    color: #F6FBFF;
+}
+
+.btn-prm:hover{
+    background-color: #747694;
+    color: #F6FBFF;
+}
+
+.btn-prm:active, .btn-prm:focus{
+    background-color: #222222 !important;
+}
