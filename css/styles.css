@@ -127,13 +127,13 @@ body{
 }
 
 .btn2-header{
-    font-size: 15px;
-    background-color: #383D4A;
-    color: #F6FBFF;
+    font-size: 15px !important;
+    background-color: #383D4A !important;
+    color: #F6FBFF !important;
 }
 .btn2-header:hover{
-    background-color: #747694;
-    color: #F6FBFF;
+    background-color: #747694 !important;
+    color: #F6FBFF !important;
 }
 .btn2-header:active, .btn2-header:focus{
     background-color: #222222 !important;
