@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,8 +10,77 @@
     <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
     <title>RentEase - Landing Page</title>
+    <style>
+        .custom-img {
+            aspect-ratio: 1;
+            max-width: 100%;
+            max-height: 200px;
+        }
+
+        .custom-background {
+            padding-bottom: 20px; 
+            max-height: 500px; 
+            overflow: auto; 
+        }
+    </style>
 </head>
 <body>
+    <div>
+        <img src="img/alquiler-llave-casa.jpg" class="card-img" alt="fondo">
+    </div>
+
+    <div class="container-fluid custom-background">
+        <div class="container">
+            <div class="row align-items-center">
+                
+                <div class="col-md-10">
+                    <div class="pt-4 pb-4">
+                        <div class="aboutUS-title">Quienes somos?</div>
+                    </div>
+                    <div class="pb-3">
+                        <div class="mensaje">Somos 
+                            <span class="negrita"><i>RentSmart</i></span> 
+                            un equipo apasionado que se esfuerza por conectar a propietarios con inquilinos de manera 
+                            <span class="negrita">fácil</span> 
+                            y <span class="mensaje">segura.</span> 
+                        </div>
+                    </div>
+                    <div class="pb-4">
+                        <div class="mensaje">Nuestra plataforma 
+                            <span class="negrita"><i>RentEase</i></span>
+                            y sus características innovadoras hacen que encontrar el lugar perfecto sea 
+                            <span class="negrita">más rápido</span>
+                            y conveniente que nunca. 
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-2">
+                    <div class="pt-4">
+                        <img src="img/aboutUS.jpg" class="img-fluid custom-img float-end" alt="Quienes Somos Imagen">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+
+    <div>
+        <div class="d-flex justify-content-center pt-3">
+        
+            <button class="btn">
+                <div class="negrita d-flex justify-content-center">
+                    Únete a rentease
+                </div>
+            </button>
+    
+        </div>
+    
+        <div class="negrita d-flex justify-content-center pt-2">
+            y deja que te ayudemos a encontrar tu próximo hogar.
+        </div>
+    </div>
 
 </body>
 </html>
+
+
