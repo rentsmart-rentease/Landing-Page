@@ -1,14 +1,10 @@
-h2 {
+h2.gallery-title {
     font-family: "Rubik", sans-serif;
     font-size: 40px;
     color: #222222;
 }
 
-.card {
-    border: none;
-}
-
-.card-img-top {
+.gallery-card-img-top {
     border-radius: 8px;
 }
 
@@ -26,13 +22,14 @@ h2 {
     background-color: #ffffff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.2s;
+    /* border: none; */
 }
 
 #galeria .card:hover {
     transform: scale(1.05);
 }
 
-#galeria .card-img-top {
+#galeria .gallery-card-img-top {
     height: 200px;
     object-fit: cover;
 }
