@@ -1,0 +1,76 @@
+/* Estilos generales */
+body {
+    font-family: Rubik, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    background-color: #ffffff;
+}
+#cabeza {
+    font-size: 68px;
+    text-align: center;
+    padding: 20px;
+    font-style: Bold;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    justify-content: space-between;
+}
+.image img{
+    border-radius: 30px;
+}
+.icon img{
+    width: 35px;
+    height: 35px;
+}
+/* Estilos del formulario*/
+.form-container{
+    padding: 0 20px;
+    display: flex;
+}
+.form-contact form{
+    background-color: #D2D5ED;
+    border: 1px solid #000000;
+    border-radius: 30px;
+    padding: 0 95px 20px;
+}
+.form-group {
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 200%;
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 8px;
+}
+
+.form-group textarea {
+    resize: horizontal;
+}
+.button {
+    font-style: bold;
+    background-color: #84DCC6;
+    color: #000000;
+    padding: 15px 30px;
+    width: 150%;
+    text-decoration: solid;
+    border: 0px;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+    display: inline-block;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.button:hover {
+    background-color: #49e6cb;
+}
+
