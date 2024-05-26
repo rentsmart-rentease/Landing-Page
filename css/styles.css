@@ -272,7 +272,7 @@ body{
     background-position: center;
 }
 
-/* AboutUS */
+/* About us */
 .custom-img {
     aspect-ratio: 1;
     max-width: 100%;
@@ -339,7 +339,7 @@ body{
     line-height: 1.35;
 }
 
-/* testimonials & reviews */
+/* Testimonios */
 
 .testimonial {
     border: 1px solid #000000;
@@ -400,20 +400,20 @@ body{
 }
 
 
-.box h2 {
+.offering-sbi {
     display: flex;
     align-items: center;
     font-size: 1.5em;
 }
 
-.box h2 img {
-    width: 30px;
-    height: 30px;
+.offering-img {
+    width: 70px;
+    height: auto;
     margin-right: 20px;
 }
 
 
-.box p {
+.offering-p {
     margin: 0;
 }
 
@@ -421,38 +421,18 @@ body{
     margin: 20px 0;
 }
 
-/* Footer */
-
-.footer {
-    background-color: #222222 !important;
-    padding: 20px 0;
-    text-align: center;
-}
-
-.ft-ttl{
-    color: #D2D5ED;
-    font-size: 35px;
-}
-
-.ft-parr{
-    color: #D2D5ED;
-    font-size: 20px;
-}
-
-.ft-end{
-    color: #D2D5ED;
-    font-size: 13px;
-}
-
 /* Video */
 
-main {
-    flex: 1;
+.video {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
+    min-height: auto;
+    width: 100%;
+    background-color: #D2D5ED;
+    padding-bottom: 30px;
 }
 
 .video-section {
@@ -469,9 +449,8 @@ main {
     position: relative;
     padding-bottom: 56.25%; /* Relación de aspecto 16:9 */
     height: 0;
-    width: 200%; /* Ajusta este valor según sea necesario */
-    max-width: 1500px; /* Ajusta este valor según sea necesario */
-    background: #000;
+    width: 100%; 
+    max-width: 720px;
 }
 
 .video-container iframe {
@@ -480,6 +459,7 @@ main {
     left: 0;
     width: 100%;
     height: 100%;
+    border: 0;
 }
 
 /* Galería */
@@ -531,35 +511,35 @@ h2.faq-title {
 
 .accordion-button {
     background-color: #8b8fad;
-    color: #FOF2FF;
+    color: #F0F2FF;
     font-family: "Rubik", sans-serif;
     font-size: 24px;
 }
 
 .accordion-body {
-    background-color: #FOF2FF;
+    background-color: #F0F2FF;
     color: #222222;
     font-family: "Rubik", sans-serif;
     font-size: 16px;
 }
 
-/* Estilos del formulario*/
+/* Contacto */
 #cabeza {
-    font-size: 68px;
+    font-size: 30px;
     text-align: center;
     padding: 20px;
     font-style: Bold;
 }
-.container {
+.contenedor {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
-    justify-content: space-between;
+    justify-content: center;
 }
-.image img{
+.image-ctc{
     border-radius: 30px;
 }
-.icon img{
+.icon-ctc{
     width: 35px;
     height: 35px;
 }
@@ -611,4 +591,27 @@ h2.faq-title {
 
 .button:hover {
     background-color: #49e6cb;
+}
+
+/* Footer */
+
+.footer {
+    background-color: #222222 !important;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.ft-ttl{
+    color: #D2D5ED;
+    font-size: 35px;
+}
+
+.ft-parr{
+    color: #D2D5ED;
+    font-size: 20px;
+}
+
+.ft-end{
+    color: #D2D5ED;
+    font-size: 13px;
 }
