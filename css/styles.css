@@ -15,10 +15,108 @@
     width: 426px;
     height: 140%;
 }
+
+/* Prices */
+
 body{
     font-family: "Rubik", sans-serif;
     font-style: normal;
     font-weight: 500;
+    overflow-x: hidden;
+}
+
+.bgd-prices{
+    background-color: #F0F2FF;
+    height: auto;
+}
+
+.tit-prices{
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.parr-prices{
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.highlight{
+    font-weight: 500;
+    font-style: italic;
+}
+
+.sep{
+    margin-top: 40px;
+}
+
+.plan{
+    max-width: 500px;
+    width: 70%;
+    height: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 0;
+    border-radius: 10px;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.25);
+}
+
+.tit-tarjeta{
+    font-weight: 800;
+    font-size: 25px;
+}
+
+.tarjeta-pt1{
+    padding-top: 4%;
+    padding-bottom: 4%;
+    background-color: #84DCC6;
+    height: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.sep2{
+    line-height: 1;
+    margin-bottom: 20px;
+}
+
+.im-tarjeta{
+    max-width: 100px;
+    height: auto;
+}
+
+.dinero{
+    font-size: 25px;
+    color: #000;
+}
+
+.tarjeta-pt2{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    height: auto;
+}
+
+.tarjeta-pt3{
+    padding-top: 10%;
+    padding-bottom: 10%;
+    background-color: #D1FEF2;
+    height: auto;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.tit-bfs{
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+
+.txt-bfs{
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.txt-ttl-bfs{
+    color: #222222 !important;
 }
 .navbar-brand, .offcanvas-title{
     font-family: "Rubik", sans-serif;
@@ -126,15 +224,39 @@ body{
     color: #F6FBFF !important;
 }
 
-.btn2-header{
-    font-size: 15px;
+
+.colr-prm-ttl{
+    color: #F0F2FF !important;
+}
+
+.clr-prm-txt{
+    color: #000 !important;
+}
+
+.btn-prm{
     background-color: #383D4A;
     color: #F6FBFF;
 }
-.btn2-header:hover{
+
+.btn-prm:hover{
     background-color: #747694;
     color: #F6FBFF;
 }
+
+.btn-prm:active, .btn-prm:focus{
+    background-color: #222222 !important;
+}
+
+.btn2-header{
+    font-size: 15px !important;
+    background-color: #383D4A !important;
+    color: #F6FBFF !important;
+}
+.btn2-header:hover{
+    background-color: #747694 !important;
+    color: #F6FBFF !important;
+}
+
 .btn2-header:active, .btn2-header:focus{
     background-color: #222222 !important;
 }
@@ -253,4 +375,170 @@ body{
 
 .casos-de-exito .card img {
     border-radius: 8px 8px 0 0;
+}
+
+/* Beneficios */
+
+.offerings-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.offering-item {
+    margin: 20px 0;
+}
+
+.offerings-title {
+    text-align: center;
+}
+
+.box {
+    background-color: #8B8FAD;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+
+.box h2 {
+    display: flex;
+    align-items: center;
+    font-size: 1.5em;
+}
+
+.box h2 img {
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+}
+
+
+.box p {
+    margin: 0;
+}
+
+.divider {
+    margin: 20px 0;
+}
+
+/* Footer */
+
+.footer {
+    background-color: #222222 !important;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.ft-ttl{
+    color: #D2D5ED;
+    font-size: 35px;
+}
+
+.ft-parr{
+    color: #D2D5ED;
+    font-size: 20px;
+}
+
+.ft-end{
+    color: #D2D5ED;
+    font-size: 13px;
+}
+
+/* Video */
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.video-section {
+    margin: 40px 0;
+}
+
+.video-section h2 {
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* Relación de aspecto 16:9 */
+    height: 0;
+    width: 200%; /* Ajusta este valor según sea necesario */
+    max-width: 1500px; /* Ajusta este valor según sea necesario */
+    background: #000;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Galería */
+
+h2.gallery-title {
+    font-family: "Rubik", sans-serif;
+    font-size: 40px;
+    color: #222222;
+}
+
+.gallery-card-img-top {
+    border-radius: 8px;
+}
+
+#galeria {
+    background-color: #f0f2ff;
+    padding: 2rem;
+    border-radius: 8px;
+}
+
+#galeria h2 {
+    color: #4b4e6d;
+}
+
+#galeria .card {
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    /* border: none; */
+}
+
+#galeria .card:hover {
+    transform: scale(1.05);
+}
+
+#galeria .gallery-card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Preguntas Frecuentes */
+
+h2.accordion-header,
+h2.faq-title {
+    font-family: "Rubik", sans-serif;
+    font-size: 40px;
+    color: #222222;
+}
+
+.accordion-button {
+    background-color: #8b8fad;
+    color: #FOF2FF;
+    font-family: "Rubik", sans-serif;
+    font-size: 24px;
+}
+
+.accordion-body {
+    background-color: #FOF2FF;
+    color: #222222;
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
 }
