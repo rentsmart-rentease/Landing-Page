@@ -134,6 +134,7 @@ body{
 .btn2-header:hover{
     background-color: #747694 !important;
     color: #F6FBFF !important;
+  
 }
 .btn2-header:active, .btn2-header:focus{
     background-color: #222222 !important;
@@ -148,6 +149,74 @@ body{
     background-image: url("https://i.ibb.co/bFVCBrT/fondo-header2.jpg");
     background-size: cover;
     background-position: center;
+}
+
+/* AboutUS */
+.custom-img {
+    aspect-ratio: 1;
+    max-width: 100%;
+    max-height: 200px;
+}
+
+.custom-background {
+    padding-bottom: 20px; 
+    max-height: 500px; 
+    overflow: auto; 
+    background-color: #97ffe5;
+}
+
+.custom-background2 {
+    padding-bottom: 20px; 
+    max-height: 500px; 
+    overflow: auto; 
+    background-color: #8fd7c5;
+}
+
+.custom-background3 {
+    padding-bottom: 20px; 
+    max-height: 500px; 
+    overflow: auto; 
+    background-color: #7bb9aa;
+}
+
+.image-text {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+
+.custom-img {
+    max-width: 100%; 
+    height: auto;
+}
+
+.aboutUS-title{
+    font-weight: 500;
+    font-size: 35px;
+    text-align: start;
+    line-height: 1.35;
+}
+
+.negrita{
+    font-weight: 600;
+    font-size: 25px;
+    text-align: start;
+    line-height: 1.35;
+}
+
+.mini-negrita{
+    font-weight: 600;
+    font-size: 18px;
+    text-align: start;
+    line-height: 1.35;
+}
+
+.mini-msj{
+    font-weight: 300;
+    font-size: 15px;
+    text-align: start;
+    line-height: 1.35;
 }
 
 /* Footer */
