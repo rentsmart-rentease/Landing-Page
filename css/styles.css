@@ -127,14 +127,15 @@ body{
 }
 
 .btn2-header{
-    font-size: 15px;
-    background-color: #383D4A;
-    color: #F6FBFF;
+    font-size: 15px !important;
+    background-color: #383D4A !important;
+    color: #F6FBFF !important;
 }
 .btn2-header:hover{
-    background-color: #747694;
-    color: #F6FBFF;
+    background-color: #747694 !important;
+    color: #F6FBFF !important;
 }
+
 .btn2-header:active, .btn2-header:focus{
     background-color: #222222 !important;
 }
@@ -242,4 +243,71 @@ body{
 
 .testimonial-content img {
     margin-left: 10px;
+}
+
+/* Beneficios */
+
+.offerings-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.offering-item {
+    margin: 20px 0;
+}
+
+.offerings-title {
+    text-align: center;
+}
+
+.box {
+    background-color: #8B8FAD;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+
+.box h2 {
+    display: flex;
+    align-items: center;
+    font-size: 1.5em;
+}
+
+.box h2 img {
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+}
+
+
+.box p {
+    margin: 0;
+}
+
+.divider {
+    margin: 20px 0;
+}
+
+/* Footer */
+
+.footer {
+    background-color: #222222 !important;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.ft-ttl{
+    color: #D2D5ED;
+    font-size: 35px;
+}
+
+.ft-parr{
+    color: #D2D5ED;
+    font-size: 20px;
+}
+
+.ft-end{
+    color: #D2D5ED;
+    font-size: 13px;
 }
