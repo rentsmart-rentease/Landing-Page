@@ -1,0 +1,238 @@
+.image{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.image::before{
+    content: '';
+    position: absolute;
+    left: -43.7%;
+    top: 50%;
+    transform: translateY(-50%) rotate(-20deg);
+    background: #F0F2FF;
+    width: 426px;
+    height: 140%;
+}
+body{
+    font-family: "Rubik", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+}
+.navbar-brand, .offcanvas-title{
+    font-family: "Rubik", sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 36px;
+}
+
+.nav-link, .dropdown-item{
+    color: #84DCC6;
+    font-size: 16px;
+}
+
+.nav-link:hover{
+    color: #A3E8D6;
+}
+
+.nav-link.dropdown-toggle:focus,
+.nav-link.dropdown-toggle:active,
+.nav-link.dropdown-toggle[aria-expanded="true"]{
+    color: #F6FBFF !important;
+}
+
+.dropdown-menu{
+    background-color: #222222;
+}
+
+.dropdown-item:active, .dropdown-item:focus{
+    background-color: #4EA38D !important;
+    color: #F6FBFF !important;
+}
+
+.navbar-toggler {
+    margin-right: 40px;
+    border-color: #A3E8D6;
+}
+
+.navbar-light, .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28163, 232, 214, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+
+
+.offcanvas-header, .offcanvas-body{
+    background-color: #383D4A;
+}
+
+
+.btn-close{
+    --bs-btn-close-bg: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23A3E8D6'><path d='M.293.293a1 1 0 0 1 1.414 0L8 6.586 14.293.293a1 1 0 1 1 1.414 1.414L9.414 8l6.293 6.293a1 1 0 0 1-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 0 1-1.414-1.414L6.586 8 .293 1.707a1 1 0 0 1 0-1.414z'/></svg>");
+    --bs-btn-close-opacity: 1;
+}
+
+.numero{
+    font-size: 15px;
+    color: black;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.bg-white{
+    box-shadow: inset 0 0 0 1px black;
+    background-color: #F6FBFF;
+    border-radius: 8px;
+}
+
+/* Header */
+.fondo {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.cta{
+    font-weight: 700;
+    font-size: 50px;
+    text-align: start;
+    line-height: 1.35;
+}
+
+.mensaje{
+    font-weight: 300;
+    font-size: 25px;
+    text-align: start;
+    line-height: 1.35;
+}
+
+.btn{
+    background-color: #84DCC6;
+    width: 100%; 
+    max-width: 320px;
+    height: 40px;
+    font-family: "Rubik", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #191A20;
+}
+
+.btn:hover{
+    background-color: #A3E8D6;
+    color: #191A20;
+}
+.btn:active, .btn:focus{
+    background-color: #4EA38D !important;
+    color: #F6FBFF !important;
+}
+
+.btn2-header{
+    font-size: 15px;
+    background-color: #383D4A;
+    color: #F6FBFF;
+}
+.btn2-header:hover{
+    background-color: #747694;
+    color: #F6FBFF;
+}
+.btn2-header:active, .btn2-header:focus{
+    background-color: #222222 !important;
+}
+
+.im-btn{
+    transform: rotate(90deg);
+}
+
+.pic{
+    position: relative; 
+    background-image: url("https://i.ibb.co/bFVCBrT/fondo-header2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* AboutUS */
+.custom-img {
+    aspect-ratio: 1;
+    max-width: 100%;
+    max-height: 200px;
+}
+
+.custom-background {
+    padding-bottom: 20px; 
+    max-height: 500px; 
+    overflow: auto; 
+    background-color: #97ffe5;
+}
+
+.custom-background2 {
+    padding-bottom: 20px; 
+    max-height: 500px; 
+    overflow: auto; 
+    background-color: #8fd7c5;
+}
+
+.custom-background3 {
+    padding-bottom: 20px; 
+    max-height: 500px; 
+    overflow: auto; 
+    background-color: #7bb9aa;
+}
+
+.image-text {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.custom-img {
+    max-width: 100%; 
+    height: auto;
+}
+
+.aboutUS-title{
+    font-weight: 500;
+    font-size: 35px;
+    text-align: start;
+    line-height: 1.35;
+}
+
+.negrita{
+    font-weight: 600;
+    font-size: 25px;
+    text-align: start;
+    line-height: 1.35;
+}
+
+.mini-negrita{
+    font-weight: 600;
+    font-size: 18px;
+    text-align: start;
+    line-height: 1.35;
+}
+
+.mini-msj{
+    font-weight: 300;
+    font-size: 15px;
+    text-align: start;
+    line-height: 1.35;
+}
+
+/* testimonials & reviews */
+
+.testimonial img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.testimonial-content {
+    display: flex;
+    align-items: center;
+}
+
+.testimonial-content .mini-negrita {
+    margin-right: 10px;
+}
+
+.testimonial-content img {
+    margin-left: 10px;
+}
