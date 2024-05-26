@@ -134,8 +134,8 @@ body{
 .btn2-header:hover{
     background-color: #747694 !important;
     color: #F6FBFF !important;
-  
 }
+
 .btn2-header:active, .btn2-header:focus{
     background-color: #222222 !important;
 }
@@ -185,7 +185,6 @@ body{
     margin-top: 10px;
 }
 
-
 .custom-img {
     max-width: 100%; 
     height: auto;
@@ -217,6 +216,33 @@ body{
     font-size: 15px;
     text-align: start;
     line-height: 1.35;
+}
+
+/* testimonials & reviews */
+
+.testimonial {
+    border: 1px solid #000000;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.testimonial img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.testimonial-content {
+    display: flex;
+    align-items: center;
+}
+
+.testimonial-content .mini-negrita {
+    margin-right: 10px;
+}
+
+.testimonial-content img {
+    margin-left: 10px;
 }
 
 /* Beneficios */
