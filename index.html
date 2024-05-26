@@ -1,26 +1,553 @@
 <!doctype html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="icon" href="img/logo rentease.ico" />
-        <link
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-            rel="stylesheet"
-            integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-            crossorigin="anonymous"
-        />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
-            rel="stylesheet"
-        />
-        <link rel="stylesheet" href="css/styles.css" />
-        <title>RentEase - Landing Page</title>
-    </head>
-    <body>
-        <!-- 7. Galería -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/logo rentease.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>RentEase - Landing Page</title>
+    <style>
+        
+    </style>
+</head>
+
+<body>
+  
+  <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top p-0">
+    <div class="container-fluid g-0" style="background-color: #383D4A; padding-block: 14px;">
+      <h1>
+        <a class="navbar-brand" style="margin-left: 40px; color: #F0F2FF;" 
+        href="#top" aria-current="page">RentEase</a>
+      </h1>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header" style="padding-bottom: 50px;">
+          <div class="container-fluid g-0">
+            <div class="row">
+              <div class="col-10" style="margin-left: 26%;">
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel" style="color: #F0F2FF">
+                  <a href="#top" class="text-decoration-none" style="color: #F0F2FF"">RentEase</a>
+                </h5>
+              </div>
+            </div>
+          </div>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body text-center">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="">Sobre nosotros</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="">Beneficios</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="">Testimonios</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="">Contacto</a>
+            </li>
+            <li class="nav-item dropdown d-none d-lg-block mx-2" style="padding-right: 100px;">
+              <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown" 
+              aria-expanded="false">Secciones</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="">Demostración</a></li>
+                <li><a class="dropdown-item" href="#prices">Planes y precios</a></li>
+                <li><a class="dropdown-item" href="">Galería</a></li>
+                <li><a class="dropdown-item" href="">Preguntas Frecuentes</a></li>
+                <li><a class="dropdown-item" href="">Casos de éxito</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item d-block d-lg-none mx-2">
+              <a class="nav-link" href="">Demostración</a>
+            </li>
+            <li class="nav-item d-block d-lg-none mx-2">
+              <a class="nav-link" href="#prices">Planes y precios</a>
+            </li>
+            <li class="nav-item d-block d-lg-none mx-2">
+              <a class="nav-link" href="">Galería</a>
+            </li>
+            <li class="nav-item d-block d-lg-none mx-2">
+              <a class="nav-link" href="">Preguntas Frecuentes</a>
+            </li>
+            <li class="nav-item d-block d-lg-none mx-2">
+              <a class="nav-link" href="">Casos de éxito</a>
+            </li>
+            
+            <li class="nav-item d-block d-lg-none mx-2" style="margin-top: 60%;">
+              <div class="container-fluid g-0 ">
+                <div class="row align-items-center">
+                  <div class="col-2">
+                    <img src="https://cdn-icons-png.freepik.com/512/15/15407.png" alt="Teléfono" class="img-fluid">
+                  </div>
+                  <div class="col-5 numero text-start">+51 987 654 321</div>
+                  <div class="col-5 ms-auto">
+                    <div class="container-fluid g-0">
+                      <div class="row align-items-center justify-content-center">
+                        <div class="col-5">
+                          <img src="https://icones.pro/wp-content/uploads/2021/02/facebook-icone-noir.png" alt="logo_facebook" class="img-fluid">
+                        </div>
+                        <div class="col-5">
+                          <img src="https://i.pinimg.com/originals/1e/d9/a0/1ed9a0fd507968861891b1098f480f4a.png" alt="logo_instagram" class="img-fluid bg-white">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+          </ul>
+          
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <div class="card mb-3 border-0 d-none d-md-block" style="max-width: 100%; margin-top: 80px;">
+    <div class="row g-0">
+      <div class="col-12 col-xl-6 d-flex">
+        <div class="card-body" style="background: #F0F2FF;">
+          <div class="container-fluid g-0">
+            <div class="row">
+              <div class="col-10 d-none d-md-block mx-auto">
+                <div class="cta" style="margin-top: 10%;">Encuentra el lugar</div>
+                <div class="cta">de tus <span class="div" style="color: #84DCC6;">sueños</span></div>
+                <div class="cta">ahora.</div>
+              </div>
+
+              <div class="col-10 d-block d-md-none mx-auto">
+                <div class="cta" style="margin-top: 10%;">Encuentra el</div>
+                <div class="cta">lugar de tus</div>
+                <div class="cta"><span class="div" style="color: #84DCC6;">sueños </span>ahora.</div>
+              </div>
+
+
+              <div class="col-10 d-none d-md-block mx-auto" style="margin-top: 20px">
+                <div class="mensaje">En nuestra plataforma, buscar una propiedad a tu</div>
+                <div class="mensaje">gusto nunca fue tan fácil.</div>
+              </div>
+
+              <div class="col-10 d-block d-md-none mx-auto" style="margin-top: 20px">
+                <div class="mensaje">En nuestra plataforma, buscar</div>
+                <div class="mensaje">una propiedad a tu gusto nunca</div>
+                <div class="mensaje">fue tan fácil.</div>
+              </div>
+
+              <div class="col-10 mx-auto" style="margin-top: 33px">
+                <div class="container-fluid g-0">
+                  <div class="row align-items-center">
+                    <div class="col-12 col-md-4">
+                      <a class="btn btn-primary text border-0 d-flex justify-content-center align-items-center"
+                        href="">
+                            Explora</a>
+                    </div>
+
+                    <div class="col-12 d-block d-md-none" style="margin-top: 20px; margin-bottom: 20px;"></div>
+
+                    <div class="col-12 col-md-5">
+                      <a class="btn btn-primary text border-0 d-flex justify-content-center align-items-center btn2-header"
+                        href="">
+                        <img src="img/flecha.png" alt="flecha" class="img-fluid im-btn" 
+                        style="max-width: 18px; margin-right: 10px;">
+                            ¿Cómo funciona?</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-11 mx-auto" style="margin-top: 33px">
+                <div class="container-fluid g-0">
+                  <div class="row align-items-center">
+                    <div class="col-12">
+                      <img src="img/circulos-fondo.png" alt="flecha" class="img-fluid" 
+                        style="max-width: 360px;">
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-xl-6 d-none d-xl-block">
+        <div class="image">
+            <img src="img/fondo_header.jpg" class= "img-fluid" alt ="fondo">
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container-fluid g-0 d-block d-md-none" style="max-width: 100%; margin-top: 75px;">
+    <div class="row">
+      <div class="col pic">
+
+      <div class="container-fluid g-0 mobile">
+        <div class="row">
+
+          <div class="col-10 mx-auto">
+            <div class="cta" style="margin-top: 10%;">Encuentra el</div>
+            <div class="cta">lugar de tus</div>
+            <div class="cta"><span class="div" style="color: #84DCC6;">sueños </span>ahora.</div>
+          </div>
+
+          <div class="col-10 mx-auto" style="margin-top: 30px">
+            <div class="mensaje">En nuestra plataforma, buscar</div>
+            <div class="mensaje">una propiedad a tu gusto nunca</div>
+            <div class="mensaje">fue tan fácil.</div>
+          </div>
+
+          <div class="col-10 mx-auto" style="margin-top: 70px">
+            <div class="container-fluid g-0">
+              <div class="row align-items-center justify-content-center">
+                <div class="col-10 mx-auto">
+                  <a class="btn btn-primary text border-0 d-flex justify-content-center align-items-center"
+                    href="">
+                        Explora</a>
+                </div>
+
+                <div class="col-12" style="margin-top: 30px; margin-bottom: 30px;"></div>
+
+                <div class="col-10 mx-auto">
+                  <a class="btn btn-primary text border-0 d-flex justify-content-center align-items-center btn2-header"
+                    href="">
+                    <img src="img/flecha.png" alt="flecha" class="img-fluid im-btn" 
+                    style="max-width: 18px; margin-right: 10px;">
+                        ¿Cómo funciona?</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-11 mx-auto" style="margin-top: 50px; margin-bottom: 10px;">
+            <div class="container-fluid g-0">
+              <div class="row align-items-center">
+                <div class="col-12">
+                  <img src="img/circulos-fondo.png" alt="flecha" class="img-fluid" 
+                    style="max-width: 360px;">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="separador" style="margin-top: 20px;"></div>
+  
+  <!-- About us -->                                                
+                                                  
+  <div>
+        <img src="img/alquiler-llave-casa.jpg" class="card-img" alt="fondo">
+    </div>
+
+    <div class="container-fluid custom-background">
+        <div class="container">
+            <div class="row align-items-center">
+                
+                <div class="col-md-10">
+                    <div class="pt-4 pb-4">
+                        <div class="aboutUS-title">Quienes somos?</div>
+                    </div>
+                    <div class="pb-3">
+                        <div class="mensaje">Somos 
+                            <span class="negrita"><i>RentSmart</i></span> 
+                            un equipo apasionado que se esfuerza por conectar a propietarios con inquilinos de manera 
+                            <span class="negrita">fácil</span> 
+                            y <span class="mensaje">segura.</span> 
+                        </div>
+                    </div>
+                    <div class="pb-4">
+                        <div class="mensaje">Nuestra plataforma 
+                            <span class="negrita"><i>RentEase</i></span>
+                            y sus características innovadoras hacen que encontrar el lugar perfecto sea 
+                            <span class="negrita">más rápido</span>
+                            y conveniente que nunca. 
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-2">
+                    <div class="pt-4">
+                        <img src="img/aboutUS.jpg" class="img-fluid custom-img float-end" alt="Quienes Somos">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div> 
+
+    <div class="container mt-4">
+        <div class="row ">
+            <div class="col-2 custom-background2">
+                <img src="img/alfredo-aragon.jpg" class="img-fluid custom-img pt-3" alt="Imagen 1">
+                <div class="image-text"> <span class="mini-negrita"> Alfredo Aragon </span> </div>
+                <div class="mini-msj justify-content-center"> Conocimientos previos de Python y C++, con personalidad colaborativa que le permite trabajar de manera efectiva en equipo y asi crear distintas soluciones. </div>
+            </div>
+            <div class="col-3 text-center custom-background3 pt-3">
+                <img src="img/eduardo-rivas.jpg" class="img-fluid custom-img pt-3" alt="Imagen 2">
+                <div class="image-text"> <span class="mini-negrita"> Eduardo Rivas </span> </div>
+                <div class="mini-msj justify-content-center"> Interés en desarrollo de software, conocimientos de programación en C++, Python y JavaScript, personalidad responsable, colaborativa con liderazgo con enormes expectativas </div>
+            </div>
+            <div class="col-2 custom-background2">
+                <img src="img/leonardo-joaquin.jpg" class="img-fluid custom-img pt-3" alt="Imagen 3">
+                <div class="image-text">Leonardo Joaquin </span> </div>
+                <div class="mini-msj justify-content-center"> Experiencia en el desarrollo de aplicaciones con C++ y Python, además de virtudes y herramientas que ayudan en la organización y trabajos grupales. </div>
+            </div>
+            <div class="col-3 text-center custom-background3">
+                <img src="img/luis-gomez.jpg" class="img-fluid custom-img pt-3" alt="Imagen 4">
+                <div class="image-text"> <span class="mini-negrita"> </span>Luis Gomez </span> </div>
+                <div class="mini-msj justify-content-center"> Priorización en programación de efictividad y optimización en lenguajes como C++ y Python, además de una personalidad competitiva y solidaria. </div>
+            </div>
+            <div class="col-2 custom-background2">
+                <img src="img/tarik-morales.jpg" class="img-fluid custom-img pt-3" alt="Imagen 5">
+                <div class="image-text">  <span class="mini-negrita"> </span>Tarik Morales </span> </div>
+                <div class="mini-msj justify-content-center"> Conocimientos en C++, Python y un poco de JavaScript, con compromiso a guiar y apoyar al equipo en el proceso del proyecto para una entrega exitosa. </div>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <div class="d-flex justify-content-center pt-4">
+        
+            <button class="btn">
+                <div class="negrita d-flex justify-content-center">
+                    Únete a rentease
+                </div>
+            </button>
+    
+        </div>
+    
+        <div class="negrita d-flex justify-content-center pt-2 pb-2">
+            y deja que te ayudemos a encontrar tu próximo hogar.
+        </div>
+    </div>
+  
+  <div class="separador" style="margin-top: 20px;"></div>
+  
+  <!-- Beneficios -->
+                                                  
+  <ol class="offerings-list">
+        <h1 class="offerings-title">¿Qué Ofrecemos?</h1>
+        <li class="offering-item">
+            <div class="box">
+                <h2><img src="Escudo.jpeg">Seguridad</h2>
+                <p>Protegemos tus datos y verificamos propiedades para tu tranquilidad</p>
+            </div>
+        </li>
+        <hr class="divider">
+        <li class="offering-item">
+            <div class="box">
+                <h2><img src="Charla.jpeg">Comunicación</h2>
+                <p>Conéctate directamente con propietarios para agilizar el proceso de alquiler</p>
+            </div>
+        </li>
+        <hr class="divider">
+        <li class="offering-item">
+            <div class="box">
+                <h2><img src="Ventana.jpeg">Diseño amigable</h2>
+                <p>Nuestra plataforma es fácil de usar desde cualquier dispositivo, simplificando tu búsqueda</p>
+            </div>
+        </li>
+        <hr class="divider">
+        <li class="offering-item">
+            <div class="box">
+                <h2><img src="Especialista.jpeg">Soporte al cliente</h2>
+                <p>Estamos aquí para ayudarte en cada paso del camino, proporcionándote asistencia cuando la necesites</p>
+            </div>
+        </li>
+    </ol>                                                
+
+   <div class="separador" style="margin-top: 20px;"></div>
+                                                
+<!-- Testimonios -->                           
+                           
+<div class="container mt-5">
+
+    <div class="cta d-flex justify-content-center pb-5">
+        ¿Qué dicen nuestros clientes?
+    </div>
+
+    <div class="row">
+        
+        <div class="col-md-5">
+            <div class="testimonial">
+                <div class="testimonial-content">
+                    <img src="img/testigo1.jpg" alt="Testigo 1" class="img-thumbnail rounded-circle">
+                    <p class="mini-negrita ps-2">María Lopez</p>
+                    <img src="img/reseña.jpg" alt="Calificación" class="img-thumbnail">
+                </div>
+                <p class="mini-msj pt-3"><i>"¡Increíble experiencia con RentEase! Encontré mi nuevo hogar en cuestión de días gracias a su plataforma fácil de usar y a su equipo de atención al cliente excepcional. Recomiendo RentEase a cualquier persona en busca de un alquiler sin complicaciones."</i></p>
+            </div>
+        </div>
+
+        <div class="col-md-2"></div>
+
+        <div class="col-md-5">
+            <div class="testimonial">
+                <div class="testimonial-content">
+                    <img src="img/testigo2.jpg" alt="Testigo 2" class="img-thumbnail rounded-circle">
+                    <p class="mini-negrita ps-2">Juan Martínez</p>
+                    <img src="img/reseña.jpg" alt="Calificación" class="img-thumbnail">
+                </div>
+                <p class="mini-msj pt-3"><i>"Cinco estrellas para RentEase! La variedad de opciones de vivienda y la información detallada de los propietarios hicieron que mi búsqueda de alquiler fuera una brisa. ¡Gracias a RentEase, encontré el lugar perfecto que se adapta a mis necesidades y presupuesto!"</i></p>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="row mt-5">
+        <div class="col-md-5">
+            <div class="testimonial">
+                <div class="testimonial-content">
+                    <img src="img/testigo3.jpg" alt="Testigo 2" class="img-thumbnail rounded-circle">
+                    <p class="mini-negrita ps-2">Carolina Herrera</p>
+                    <img src="img/reseña.jpg" alt="Calificación" class="img-thumbnail">
+                </div>
+                <p class="mini-msj pt-3"><i>"No puedo recomendar RentEase lo suficiente! Desde el primer contacto hasta el contrato de alquiler, su equipo fue extremadamente servicial y profesional. Encontré un apartamento que superó mis expectativas, todo gracias a la eficiencia y la transparencia de RentEase."</i></p>
+            </div>
+        </div>
+
+        <div class="col-md-2"></div>
+    
+        <div class="col-md-5">
+            <div class="testimonial">
+                <div class="testimonial-content">
+                    <img src="img/testigo4.jpg" alt="Testigo 2" class="img-thumbnail rounded-circle">
+                    <p class="mini-negrita ps-2">Roberto García</p>
+                    <img src="img/reseña.jpg" alt="Calificación" class="img-thumbnail">
+                </div>
+                <p class="mini-msj pt-3"><i>"¡RentEase es simplemente genial! Como propietario, siempre he tenido dificultades para encontrar inquilinos confiables, pero RentEase cambió eso por completo. Su plataforma me ayudó a conectar con inquilinos de calidad y a gestionar mi propiedad de manera eficiente. ¡Gracias, RentEase, por hacer que el proceso de alquiler sea tan simple y seguro!"</i></p>
+            </div>
+        </div>
+    </div>
+    
+</div>
+
+<div class="separador" style="margin-top: 20px;"></div>
+                                                
+<!-- Video -->                                                
+                                                
+<main>
+        <section class="video-section">
+             <h2>Video Interactivo, ¿Cómo empezar?</h2>
+               <div class="video-container">
+                  <iframe src="https://www.youtube.com/watch?v=GhXs9-eu9fk" frameborder="0" allowfullscreen></iframe>
+               </div>
+        </section>
+</main>
+                                                                                           
+<div class="separador" style="margin-top: 20px;"></div>                                                                                           
+
+ <!-- Prices -->
+
+  <div class="container-fluid g-0 bgd-prices" 
+  style="padding-bottom: 30px; margin-top: 30px; margin-bottom: 30px;" id="prices">
+    <div class="row">
+      <div class="col-12 text-center" style="margin-top: 60px; margin-bottom: 30px;">
+        <h2 class="tit-prices">Planes y Precios</h2>
+      </div>
+      <div class="col-12 text-center" style="margin-bottom: 60px;">
+        <p class="parr-prices">Elige el plan de <span class="highlight">RentEase</span> que se adapte mejor a lo que buscas y a tu nivel de inmersión en el sector inmobiliario</p>
+      </div>
+
+      <div class="col-12" style="margin-bottom: 40px;">
+        <div class="container-fluid g-0">
+          <div class="row align-items-center">
+
+            <div class="col-12 col-md-6 d-flex align-items-center justify-content-center">
+              <div class="card plan text-center">
+                <div class="card-body tarjeta-pt1">
+                  <div class="card-title tit-tarjeta sep2">Gratuito</div>
+                  <div class="card-subtitle mt-3 text-body-secondary sep2">Alquila o pon en alquiler, como tu decidas</div>
+                </div>
+                <div class="card-body tarjeta-pt2">
+                  <img src="img/logo rentease.ico" class="card-img im-tarjeta" alt="im-gratuito">
+                  <div class="card-subtitle mt-3 text-body-secondary sep2"><span class="dinero">S/. 0 </span>por mes</div>
+                  <a class="btn btn-primary text border-0 text-center" href="">Usar el plan gratuito</a>
+                </div>
+                <div class="card-body tarjeta-pt3">
+                  <div class="card-title tit-bfs">Beneficios</div>
+                  <div class="card-text text-body-secondary txt-bfs txt-ttl-bfs">Para los propietarios:</div>
+                  <div class="text-start" style="margin-top: 15px; margin-bottom: 30px; padding-left: 10%; padding-right: 10%;">
+                    <div class="card-text text-body-secondary txt-bfs">> Sistema de publicación de inmuebles completo.</div>
+                    <div class="card-text text-body-secondary txt-bfs">> Gestión de contactos y mensajería.</div>
+                    <div class="card-text text-body-secondary txt-bfs">> Visualización básica de estadísticas de las publicaciones.</div>
+                  </div>
+
+                  <div class="card-text text-body-secondary txt-bfs txt-ttl-bfs">Para los inquilinos:</div>
+                  <div class="text-start" style="margin-top: 15px; margin-bottom: 30px; padding-left: 10%; padding-right: 10%;">
+                    <div class="card-text text-body-secondary txt-bfs">> Búsqueda y filtrado de inmuebles.</div>
+                    <div class="card-text text-body-secondary txt-bfs">> Contacto directo con propietarios.</div>
+                    <div class="card-text text-body-secondary txt-bfs">> Visualización de la información completa de las propiedades listadas.</div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 d-block d-md-none sep"></div>
+
+            <div class="col-12 col-md-6 d-flex align-items-center justify-content-center">
+              <div class="card plan text-center">
+                <div class="card-body tarjeta-pt1" style="background-color: #4B4E6D;">
+                  <div class="card-title tit-tarjeta sep2" style="color: #F0F2FF">Premium</div>
+                  <div class="card-subtitle mt-3 text-body-secondary sep2" style="color: #D2D5ED !important">
+                    Mayor visibilidad, mayores oportunidades</div>
+                </div>
+                <div class="card-body tarjeta-pt2">
+                  <img src="img/logo rentease dorado.ico" class="card-img im-tarjeta" alt="im-gratuito">
+                  <div class="card-subtitle mt-3 text-body-secondary sep2"><span class="dinero">S/. 19.90 </span>por mes</div>
+                  <a class="btn btn-primary text border-0 text-center btn-prm" href="">Suscribirse</a>
+                </div>
+                <div class="card-body tarjeta-pt3" style="background-color: #8B8FAD;">
+                  <div class="card-title tit-bfs" style="color: #F0F2FF">Beneficios</div>
+                  <div class="card-text text-body-secondary txt-bfs txt-ttl-bfs colr-prm-ttl">Para los propietarios:</div>
+                  <div class="text-start" style="margin-top: 15px; margin-bottom: 30px; padding-left: 10%; padding-right: 10%;">
+                    <div class="card-text text-body-secondary txt-bfs clr-prm-txt">Todo lo del Plan Gratuito, además de:</div>
+                    <div class="card-text text-body-secondary txt-bfs">> Servicio de publicidad de publicaciones</div>
+                    <div class="card-text text-body-secondary txt-bfs">> Mejor posicionamiento en los resultados de publicaciones.</div>
+                  </div>
+
+                  <div class="card-text text-body-secondary txt-bfs txt-ttl-bfs colr-prm-ttl">Para los inquilinos:</div>
+                  <div class="text-start" style="margin-top: 15px; margin-bottom: 30px; padding-left: 10%; padding-right: 10%;">
+                    <div class="card-text text-body-secondary txt-bfs clr-prm-txt">Todo lo del Plan Gratuito, además de:</div>
+                    <div class="card-text text-body-secondary txt-bfs">> Acceso a listas de publicaciones mejor valoradas</div>
+                    <div class="card-text text-body-secondary txt-bfs">> Notificaciones inmediatas sobre publicaciones destacadas.</div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+            
+
+          </div>
+        </div>
+
+
+      </div>
+
+    </div>
+  </div>
+ 
+<div class="separador" style="margin-top: 20px;"></div> 
+                                                
+<!-- Galería -->
         <section id="galeria" class="container my-5">
             <h2 class="text-center mb-4 gallery-title">Galería</h2>
             <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
@@ -75,11 +602,26 @@
                     </div>
                 </div>
             </div>
-        </section>
-        <script
-            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-            crossorigin="anonymous"
-        ></script>
-    </body>
+        </section>    
+                                                                                         
+<div class="separador" style="margin-top: 20px;"></div>                                                                                          
+                                                
+<!-- Footer -->
+
+  <footer class="container-fluid g-0 mt-5 bg-body-tertiary footer">
+    <div class="row">
+      <div class="col-12 text-center" style="margin-top: 30px; margin-bottom: 15px;">
+        <div class="ft-ttl">RentEase</div>
+      </div>
+      <div class="col-12 text-center" style="margin-bottom: 50px;">
+        <div class="ft-parr">Encuentra el lugar de tus sueños con RentEase</div>
+      </div>
+      <div class="col-12 text-center" style="margin-bottom: 10px;">
+        <div class="ft-end">2024 RentSmart - Todos los derechos reservados</div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
 </html>
