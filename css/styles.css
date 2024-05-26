@@ -127,13 +127,14 @@ body{
 }
 
 .btn2-header{
-    font-size: 15px;
-    background-color: #383D4A;
-    color: #F6FBFF;
+    font-size: 15px !important;
+    background-color: #383D4A !important;
+    color: #F6FBFF !important;
 }
 .btn2-header:hover{
-    background-color: #747694;
-    color: #F6FBFF;
+    background-color: #747694 !important;
+    color: #F6FBFF !important;
+  
 }
 .btn2-header:active, .btn2-header:focus{
     background-color: #222222 !important;
@@ -217,3 +218,27 @@ body{
     text-align: start;
     line-height: 1.35;
 }
+
+/* Footer */
+
+.footer {
+    background-color: #222222 !important;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.ft-ttl{
+    color: #D2D5ED;
+    font-size: 35px;
+}
+
+.ft-parr{
+    color: #D2D5ED;
+    font-size: 20px;
+}
+
+.ft-end{
+    color: #D2D5ED;
+    font-size: 13px;
+}
+
