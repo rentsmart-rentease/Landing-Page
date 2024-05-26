@@ -224,6 +224,7 @@ body{
     color: #F6FBFF !important;
 }
 
+
 .colr-prm-ttl{
     color: #F0F2FF !important;
 }
@@ -363,6 +364,17 @@ body{
 
 .testimonial-content img {
     margin-left: 10px;
+}
+
+/* Casos de Éxito */
+.casos-de-exito .card {
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.casos-de-exito .card img {
+    border-radius: 8px 8px 0 0;
 }
 
 /* Beneficios */
