@@ -1,0 +1,23 @@
+<!-- src/app/publicar-casa/publicar-casa.component.html -->
+<div class="publicar-casa-container">
+    <form [formGroup]="casaForm" (ngSubmit)="onSubmit()">
+      <div>
+        <label for="titulo">Título:</label>
+        <input id="titulo" formControlName="titulo" type="text">
+      </div>
+      <div>
+        <label for="descripcion">Descripción:</label>
+        <textarea id="descripcion" formControlName="descripcion"></textarea>
+      </div>
+      <div>
+        <label for="precio">Precio:</label>
+        <input id="precio" formControlName="precio" type="number">
+      </div>
+      <div>
+        <label for="ubicacion">Ubicación:</label>
+        <input id="ubicacion" formControlName="ubicacion" type="text">
+      </div>
+      <button type="submit" [disabled]="casaForm.invalid">Publicar Casa</button>
+    </form>
+  </div>
+  
